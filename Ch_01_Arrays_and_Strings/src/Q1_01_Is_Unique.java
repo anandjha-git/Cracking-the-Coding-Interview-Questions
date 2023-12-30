@@ -16,7 +16,7 @@ public class Q1_01_Is_Unique {
 		if (str.length() > 128) // since there are total 128 characters in ascii table
 			return false;
 
-		boolean char_set[] = new boolean[128];
+		boolean char_set[] = new boolean[128]; // default value of boolean array is false
 
 		for (int i = 0; i < str.length(); i++) {
 			int int_Val = str.charAt(i); // fetching ascii value of character
